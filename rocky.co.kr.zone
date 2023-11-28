@@ -1,0 +1,11 @@
+$TTL 1D
+@	IN SOA	@ rocky.co.kr. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS	@
+	A	192.168.123.200
+www	A	192.168.123.200
+mail	A	192.168.123.200
